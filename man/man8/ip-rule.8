@@ -41,7 +41,7 @@ ip-rule \- routing policy database management
 .IR TABLE_ID " ] [ "
 .B  nat
 .IR ADDRESS " ] [ "
-.BR prohibit " | " reject " | " unreachable " ] [ " realms
+.BR prohibit " | " unreachable " ] [ " realms
 .RI "[" SRCREALM "/]" DSTREALM " ]"
 .I  SUPPRESSOR
 
@@ -108,8 +108,6 @@ The
 .B local
 table is a special routing table containing
 high priority control routes for local and broadcast addresses.
-.sp
-Rule 0 is special. It cannot be deleted or overridden.
 
 .TP
 2.
