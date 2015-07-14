@@ -446,7 +446,7 @@ don't terminate tc on errors in batch mode.
 If there were any errors during execution of the commands, the application return code will be non zero.
 
 .TP
-.BR "\-n" , " \-net" , " \-netns " <NETNS>
+.BR "\-n" , " \-netns " <NETNS>
 switches
 .B tc
 to the specified network namespace
@@ -502,6 +502,9 @@ option was specified. Classes can be filtered only by
 option.
 
 .TP
+.BR "\-force"
+don't terminate tc on errors in batch mode.
+If there were any errors during execution of the commands, the application return code will be non zero.
 .BR "\-nm" , " \-name"
 resolve class name from
 .B /etc/iproute2/tc_cls
