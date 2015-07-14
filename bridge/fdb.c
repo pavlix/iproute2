@@ -31,7 +31,7 @@ static unsigned int filter_index;
 
 static void usage(void)
 {
-	fprintf(stderr, "Usage: bridge fdb { add | append | del | replace ADDR dev DEV\n"
+	fprintf(stderr, "Usage: bridge fdb { add | append | del | replace } LLADDR dev DEV\n"
 			"              [ self ] [ master ] [ use ] [ router ]\n"
 			"              [ local | temp ] [ dst IPADDR ] [ vlan VID ]\n"
 		        "              [ port PORT] [ vni VNI ] [via DEV]\n");
